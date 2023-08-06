@@ -1,0 +1,38 @@
+<!-- app/views/organizations/index.html.erb -->
+
+<h1>Список организаций</h1>
+
+<table class="table table-striped table-hover">
+  <thead>
+  <tr>
+    <th scope="col">Имя</th>
+    <th scope="col">Краткое имя</th>
+    <th scope="col">ИНН</th>
+    <th scope="col">КПП</th>
+    <th scope="col">Адрес</th>
+    <th scope="col">Телефон</th>
+    <th scope="col"></th> <!-- Пустая ячейка для кнопки "Редактировать" -->
+    <th scope="col"></th> <!-- Пустая ячейка для кнопки "Удалить" -->
+  </tr>
+  </thead>
+  <tbody>
+  <% @organizations.each do |organization| %>
+    <tr>
+      <td><%= organization.name %></td>
+      <td><%= organization.short_name %></td>
+      <td><%= organization.inn %></td>
+      <td><%= organization.kpp %></td>
+      <td><%= organization.address %></td>
+      <td><%= organization.phone %></td>
+      <td>
+        <%= link_to "Редактировать", edit_organization_path(organization), class: "btn btn-primary btn-sm" %>
+      </td>
+      <td>
+        <%= button_to "Удалить", organization_path(organization), method: :delete, form: { data: { turbo_confirm: 'Вы уверены?' } }, class: "btn btn-danger btn-sm" %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'Добавить организацию', new_organization_path, class: "btn btn-success" %>

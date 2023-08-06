@@ -1,0 +1,13 @@
+<!-- app/views/home/home.html.erb -->
+
+<div class="row justify-content-center">
+  <div class="col-md-6 text-center">
+    <h1>Сибирский Утилизационный Центр </h1>
+    <p>Сервис автоматизации составления актов</p>
+    <p id="current-time"></p>
+  </div>
+</div>
+
+<p>Количество зарегистрированных организаций: <%= @organizations_count %></p>
+
+<%= link_to 'Организации', organizations_path, class: "btn btn-primary" %>

@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-ExtraBold.eot');
+  src: url('Raleway/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-ExtraBold.woff2') format('woff2'),
+  url('Raleway/Raleway-ExtraBold.woff') format('woff'),
+  url('Raleway/Raleway-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-ExtraLight.eot');
+  src: url('Raleway/Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-ExtraLight.woff2') format('woff2'),
+  url('Raleway/Raleway-ExtraLight.woff') format('woff'),
+  url('Raleway/Raleway-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-ExtraBoldItalic.eot');
+  src: url('Raleway/Raleway-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-ExtraBoldItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-ExtraBoldItalic.woff') format('woff'),
+  url('Raleway/Raleway-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-Black.eot');
+  src: url('Raleway/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-Black.woff2') format('woff2'),
+  url('Raleway/Raleway-Black.woff') format('woff'),
+  url('Raleway/Raleway-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-Bold.eot');
+  src: url('Raleway/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-Bold.woff2') format('woff2'),
+  url('Raleway/Raleway-Bold.woff') format('woff'),
+  url('Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-BoldItalic.eot');
+  src: url('Raleway/Raleway-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-BoldItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-BoldItalic.woff') format('woff'),
+  url('Raleway/Raleway-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-BlackItalic.eot');
+  src: url('Raleway/Raleway-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-BlackItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-BlackItalic.woff') format('woff'),
+  url('Raleway/Raleway-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-LightItalic.eot');
+  src: url('Raleway/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-LightItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-LightItalic.woff') format('woff'),
+  url('Raleway/Raleway-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-Medium.eot');
+  src: url('Raleway/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-Medium.woff2') format('woff2'),
+  url('Raleway/Raleway-Medium.woff') format('woff'),
+  url('Raleway/Raleway-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-Light.eot');
+  src: url('Raleway/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-Light.woff2') format('woff2'),
+  url('Raleway/Raleway-Light.woff') format('woff'),
+  url('Raleway/Raleway-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-ExtraLightItalic.eot');
+  src: url('Raleway/Raleway-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-ExtraLightItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-ExtraLightItalic.woff') format('woff'),
+  url('Raleway/Raleway-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-Italic.eot');
+  src: url('Raleway/Raleway-Italic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-Italic.woff2') format('woff2'),
+  url('Raleway/Raleway-Italic.woff') format('woff'),
+  url('Raleway/Raleway-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-SemiBold.eot');
+  src: url('Raleway/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-SemiBold.woff2') format('woff2'),
+  url('Raleway/Raleway-SemiBold.woff') format('woff'),
+  url('Raleway/Raleway-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-SemiBoldItalic.eot');
+  src: url('Raleway/Raleway-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-SemiBoldItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-SemiBoldItalic.woff') format('woff'),
+  url('Raleway/Raleway-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-MediumItalic.eot');
+  src: url('Raleway/Raleway-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-MediumItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-MediumItalic.woff') format('woff'),
+  url('Raleway/Raleway-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-Regular.eot');
+  src: url('Raleway/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-Regular.woff2') format('woff2'),
+  url('Raleway/Raleway-Regular.woff') format('woff'),
+  url('Raleway/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-Thin.eot');
+  src: url('Raleway/Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-Thin.woff2') format('woff2'),
+  url('Raleway/Raleway-Thin.woff') format('woff'),
+  url('Raleway/Raleway-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway/Raleway-ThinItalic.eot');
+  src: url('Raleway/Raleway-ThinItalic.eot?#iefix') format('embedded-opentype'),
+  url('Raleway/Raleway-ThinItalic.woff2') format('woff2'),
+  url('Raleway/Raleway-ThinItalic.woff') format('woff'),
+  url('Raleway/Raleway-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}

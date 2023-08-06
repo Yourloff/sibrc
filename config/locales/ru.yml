@@ -1,0 +1,13 @@
+# config/locales/ru.yml
+
+ru:
+  mongoid:
+    organization: Организация
+    attributes:
+      organization:
+        name: Наименование организации
+        short_name: Краткое наименование организации
+        inn: ИНН
+        kpp: КПП
+        address: Адрес
+        phone: Телефон

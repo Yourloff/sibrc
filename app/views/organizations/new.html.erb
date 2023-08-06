@@ -1,0 +1,41 @@
+<!-- app/views/organizations/new.html.erb -->
+
+<div class="row">
+  <div class="col-md-6 offset-md-3">
+    <h1 class="mb-4">Создание новой организации</h1>
+    <%= form_with(model: @organization, url: organizations_path, remote: true, data: { turbo: false }) do |form| %>
+      <div class="mb-3">
+        <%= form.label :name, class: "form-label" %>
+        <%= form.text_field :name, class: "form-control" %>
+      </div>
+
+      <div class="mb-3">
+        <%= form.label :short_name, class: "form-label" %>
+        <%= form.text_field :short_name, class: "form-control" %>
+      </div>
+
+      <div class="mb-3">
+        <%= form.label :inn, class: "form-label" %>
+        <%= form.text_field :inn, class: "form-control" %>
+      </div>
+
+      <div class="mb-3">
+        <%= form.label :kpp, class: "form-label" %>
+        <%= form.text_field :kpp, class: "form-control" %>
+      </div>
+
+      <div class="mb-3">
+        <%= form.label :address, class: "form-label" %>
+        <%= form.text_field :address, class: "form-control" %>
+      </div>
+
+      <div class="mb-3">
+        <%= form.label :phone, class: "form-label" %>
+        <%= form.text_field :phone, class: "form-control" %>
+      </div>
+
+      <%= form.submit "Создать организацию", class: "btn btn-primary" %>
+      <%= link_to 'Отмена', organizations_path, class: "btn btn-secondary" %>
+    <% end %>
+  </div>
+</div>

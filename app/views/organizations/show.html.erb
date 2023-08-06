@@ -1,0 +1,27 @@
+<!-- app/views/organizations/show.html.erb -->
+
+<div class="mt-5">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title"><%= @organization.name %></h2>
+
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Краткое имя:</strong> <%= @organization.short_name %></p>
+          <p><strong>ИНН:</strong> <%= @organization.inn %></p>
+          <p><strong>КПП:</strong> <%= @organization.kpp %></p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Адрес:</strong> <%= @organization.address %></p>
+          <p><strong>Телефон:</strong> <%= @organization.phone %></p>
+        </div>
+      </div>
+
+      <div class="mt-3">
+        <%= link_to "Редактировать", edit_organization_path(@organization), class: "btn btn-primary" %>
+        <%= link_to "Удалить", organization_path(@organization), method: :delete, form: { data: { turbo_confirm: 'Вы уверены?' } }, class: "btn btn-danger", remote: true %>
+      </div>
+    </div>
+  </div>
+  <%= link_to 'Главная', root_path %>
+</div>
