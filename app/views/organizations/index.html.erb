@@ -18,12 +18,12 @@
   <tbody>
   <% @organizations.each do |organization| %>
     <tr>
-      <td><%= organization.name %></td>
-      <td><%= organization.short_name %></td>
-      <td><%= organization.inn %></td>
-      <td><%= organization.kpp %></td>
-      <td><%= organization.address %></td>
-      <td><%= organization.phone %></td>
+        <td><%= link_to organization.name, organization %></td>
+        <td><%= organization.short_name %></td>
+        <td><%= organization.inn %></td>
+        <td><%= organization.kpp %></td>
+        <td><%= organization.address %></td>
+        <td><%= organization.phone %></td>
       <td>
         <%= link_to "Редактировать", edit_organization_path(organization), class: "btn btn-primary btn-sm" %>
       </td>
@@ -36,3 +36,6 @@
 </table>
 
 <%= link_to 'Добавить организацию', new_organization_path, class: "btn btn-success" %>
+<div class="mt-3">
+  <%= link_to 'Главная', root_path %>
+</div>

@@ -17,6 +17,7 @@ gem "bootsnap", require: false
 gem "sassc-rails"
 gem 'mongoid', '~> 8.1', '>= 8.1.1'
 gem 'rails-i18n', '~> 7.0'
+gem 'mongoid-grid_fs', '~> 2.5'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]

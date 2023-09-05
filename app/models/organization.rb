@@ -1,3 +1,4 @@
+require 'mongoid/grid_fs'
 class Organization
   include Mongoid::Document
   include Mongoid::Timestamps
@@ -8,4 +9,6 @@ class Organization
   field :kpp, type: String
   field :address, type: String
   field :phone, type: String
+  field :filename, type: String
+  field :content_type, type: String
 end

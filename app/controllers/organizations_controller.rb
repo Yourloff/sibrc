@@ -24,6 +24,16 @@ class OrganizationsController < ApplicationController
 
   def edit
     @organization = Organization.find(params[:id])
+
+    file = params[:file]
+    grid_file = GridFile.create(filename: file.original_filename, content_type: file.content_type)
+    grid_file.grid_fs = file.tempfile
+
+    if grid_file.save
+      redirect_to files_path, notice: 'Файл успешно загружен'
+    else
+      redirect_to files_path, alert: 'Ошибка при загрузке файла'
+    end
   end
 
   def update

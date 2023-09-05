@@ -23,5 +23,11 @@
       </div>
     </div>
   </div>
+
+  <%= form_tag files_path, multipart: true do %>
+    <%= file_field_tag :file %>
+    <%= submit_tag 'Загрузить' %>
+  <% end %>
+
   <%= link_to 'Главная', root_path %>
 </div>
